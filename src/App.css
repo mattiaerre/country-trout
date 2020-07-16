@@ -1,3 +1,37 @@
-.App {
-  text-align: center;
+/* block__element--modifier */
+
+.Footer {
+  align-items: center;
+  background-color: #7b68a1;
+  color: white;
+  display: flex;
+  font-size: 12px;
+  height: 128px;
+  justify-content: center;
+}
+
+.Header {
+  background-color: #f7972e;
+  height: 64px;
+}
+
+.Ingredients__list {
+  list-style: disc;
+  margin-left: 24px;
+}
+
+.Ingredients__list li {
+  padding-bottom: 4px;
+}
+
+.Directions__list li {
+  padding-bottom: 8px;
+}
+
+.Meta li {
+  padding-bottom: 4px;
+}
+
+.Recipe {
+  padding: 0 32px;
 }
