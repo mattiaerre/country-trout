@@ -1,5 +1,9 @@
 /* block__element--modifier */
 
+.Directions__list li {
+  padding-bottom: 8px;
+}
+
 .Footer {
   align-items: center;
   background-color: #7b68a1;
@@ -24,12 +28,12 @@
   padding-bottom: 4px;
 }
 
-.Directions__list li {
-  padding-bottom: 8px;
-}
-
 .Meta li {
   padding-bottom: 4px;
+}
+
+.Nav {
+  padding: 0 32px;
 }
 
 .Recipe {
