@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/country-trout/static/css/main.b59a3b8f.chunk.css",
+    "main.js": "/country-trout/static/js/main.4c016655.chunk.js",
+    "main.js.map": "/country-trout/static/js/main.4c016655.chunk.js.map",
+    "runtime-main.js": "/country-trout/static/js/runtime-main.794bdeb0.js",
+    "runtime-main.js.map": "/country-trout/static/js/runtime-main.794bdeb0.js.map",
+    "static/js/2.6bb7d0f7.chunk.js": "/country-trout/static/js/2.6bb7d0f7.chunk.js",
+    "static/js/2.6bb7d0f7.chunk.js.map": "/country-trout/static/js/2.6bb7d0f7.chunk.js.map",
+    "index.html": "/country-trout/index.html",
+    "precache-manifest.6247c1284197990c15e598613d00264e.js": "/country-trout/precache-manifest.6247c1284197990c15e598613d00264e.js",
+    "service-worker.js": "/country-trout/service-worker.js",
+    "static/css/main.b59a3b8f.chunk.css.map": "/country-trout/static/css/main.b59a3b8f.chunk.css.map",
+    "static/js/2.6bb7d0f7.chunk.js.LICENSE.txt": "/country-trout/static/js/2.6bb7d0f7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.794bdeb0.js",
+    "static/js/2.6bb7d0f7.chunk.js",
+    "static/css/main.b59a3b8f.chunk.css",
+    "static/js/main.4c016655.chunk.js"
+  ]
+}
