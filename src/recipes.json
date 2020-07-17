@@ -2,11 +2,11 @@
   "butternut-squash-lasagna": {
     "description": "TODO",
     "directions": [
-      "Roast uncut butternut squash for 1 hour at 400 °F, once they are roasted cut them in half, remove the seeds and mash them with 1/2 cup of almond milk, 2 Tbls of butter, 1 Tbls of nutmeg, 1/4 cup of fresh sage, 1 tsp of salt, and 1 tsp of pepper.",
-      "Saute' the spinach with 1 tsp of olive oil, 1 tsp of salt, and 1 tsp of pepper. Remove the spinach from the pan and add 1 cup of ricotta cheese and 1 egg in a bowl.",
+      "Roast uncut butternut squash for 1 hour at 400 °F, once they are roasted cut them in half, remove the seeds and skin. Mash them with 1/2 cup of almond milk, 2 Tbls of butter, 1 Tbls of nutmeg, 1/4 cup of fresh sage, 1 tsp of salt, and 1 tsp of pepper.",
+      "Saute' the spinach with 1 tsp of olive oil, 1 tsp of salt, and 1 tsp of pepper. Remove the spinach from the pan, place in a bowl and add 1 cup of ricotta cheese and 1 egg; mix together with smoked paparika, nutmeg, salt and pepper.",
       "Take 6 medium zucchini, wash them, cut off the ends and slice thinly lengthwise; place those under a broiler and lightly broil them both size.",
-      "Take an 8x10 casserole pan and layer first the butternut squash, then the sliced zucchini, then the sliced mozzarella, and then the spinach and ricotta. Repeat that layering one more time.",
-      "Top them with parmesan and nutmeg; place it in the oven and bake it to 350 °F for 35 to 40 minutes."
+      "Layer in an 8x10 casserole pan. First the butternut squash, then the sliced zucchini, then the sliced mozzarella, and finally the spinach with ricotta. Repeat that layering one more time.",
+      "Sprinkle grated parmesan and nutmeg liberally over the top. Place it in the oven and bake it to 350 °F for 35 to 40 minutes."
     ],
     "images": { "hero": "/IMG_2009.jpg" },
     "ingredients": [
@@ -30,7 +30,8 @@
       "cooking": { "time": "35-40 min" },
       "servings": { "number": 6 }
     },
-    "name": "Butternut Squash Lasagna"
+    "name": "Butternut Squash Lasagna",
+    "tags": ["Gluten-free", "Main course", "Vegetarian"]
   },
   "empty": {
     "description": "TODO",
@@ -45,37 +46,7 @@
       "cooking": { "time": "TODO" },
       "servings": { "number": 0 }
     },
-    "name": "TODO"
-  },
-  "risotto-al-salmone": {
-    "description": "Il risotto al salmone è un primo piatto di pesce semplice e veloce da preparare, la ricetta prevede pochi ingredienti ma è importante utilizzare alimenti freschi per esaltare al meglio il sapore raffinato di questo piatto. Per rendere il risotto al salmone ancora più gustoso è possibile mantecarlo con un burro aromatizzato alle erbe dai profumi molto delicati.",
-    "directions": [
-      "Preparare il burro aromatizzato sminuzzando le erbe e grattugiando la scorza di limone, lasciare ammorbidire il burro a temperatura ambiente e quando avrà raggiunto una consistenza cremosa aggiungere il trito di erbe, la scorza di limone e il sale.",
-      "Intanto pulite il trancio di salmone e tagliatelo in piccoli pezzi. Scaldate in una padella un cucchiaio di olio con uno spicchio di aglio intero e rosolate per 2/3 minuti i bocconcini di salmone, salate e tenete da parte il salmone eliminando l'aglio. Ora iniziate la preparazione del risotto: tagliate finemente il porro e fatelo appassire a fuoco basso con due cucchiai di olio in una padella.",
-      "Versate il riso a pioggia e tostatelo qualche istante a fiamma vivace girando con un cucchiaio di legno. Sfumate con il vino bianco e proseguite la cottura mescolando di tanto in tanto avendo cura che il riso non si attacchi, aggiungendo il brodo (vegetale o di pesce) poco alla volta. A metà cottura unite i bocconcini di salmone, aggiustate di sale se necessario e quando il riso sarà ben cotto, toglietelo dal fuoco e mantecate con il burro aromatizzato alle erbe e un paio di cucchiai di Grana Padano grattugiato, se di vostro gusto."
-    ],
-    "ingredients": [
-      { "name": "Riso Carnaroli", "quantity": "350 g" },
-      { "name": "Tranci di salmone", "quantity": "250 g" },
-      { "name": "Porri", "quantity": "1" },
-      { "name": "Olio extravergine d'oliva", "quantity": "q.b." },
-      { "name": "Aglio", "quantity": "1 spicchio" },
-      { "name": "Vino bianco", "quantity": "1/2 bicchiere" },
-      { "name": "Grana Padano DOP da grattugiare", "quantity": "20 g" },
-      { "name": "Sale fino", "quantity": "q.b." },
-      { "name": "Pepe nero", "quantity": "q.b." },
-      { "name": "Brodo di pesce", "quantity": "500 ml" },
-      { "name": "Burro", "quantity": "80 g" },
-      { "name": "Maggiorana", "quantity": "1 ciuffo" },
-      { "name": "Aneto", "quantity": "1 rametto" },
-      { "name": "Timo", "quantity": "1 rametto" },
-      { "name": "Scorza di limone", "quantity": "1/2" },
-      { "name": "Sale fino", "quantity": "q.b." }
-    ],
-    "meta": {
-      "cooking": { "time": "30 min" },
-      "servings": { "number": 4 }
-    },
-    "name": "Risotto al salmone"
+    "name": "TODO",
+    "tags": ["TODO", "TODO"]
   }
 }

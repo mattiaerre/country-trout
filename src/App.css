@@ -1,5 +1,11 @@
 /* block__element--modifier */
 
+.App {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 .Directions__list li {
   padding-bottom: 8px;
 }
@@ -12,11 +18,13 @@
   font-size: 12px;
   height: 128px;
   justify-content: center;
+  width: 100%;
 }
 
 .Header {
   background-color: #f7972e;
   height: 64px;
+  width: 100%;
 }
 
 .Ingredients__list {
@@ -38,9 +46,22 @@
 
 .Recipe {
   padding: 0 32px;
+  max-width: 425px;
 }
 
 .Recipe__hero {
   border: 1px solid lightgray;
   width: 100%;
+}
+
+.Tags {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Tags li {
+  font-size: 12px;
+  font-weight: bold;
+  margin: 2px 8px 2px 0;
+  text-decoration: underline;
 }

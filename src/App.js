@@ -15,23 +15,29 @@ const ids = {
 function App() {
   return (
     <Router>
-      <main>
+      <main className="App">
         <header className="Header" />
-        <nav className="Nav">
-          <ul>
-            <li>
-              <Link to="/">{copy.Home}</Link>
-            </li>
-            {Object.keys(ids).map((key) => (
-              <li key={key}>
-                <Link to={`/${key}`}>{ids[key]}</Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
         <Switch>
           <Route path="/:id">
+            <nav className="Nav">
+              <ul>
+                <li>
+                  <Link to="/">{copy.Home}</Link>
+                </li>
+              </ul>
+            </nav>
             <Recipe />
+          </Route>
+          <Route path="/">
+            <nav className="Nav">
+              <ul>
+                {Object.keys(ids).map((key) => (
+                  <li key={key}>
+                    <Link to={`/${key}`}>{ids[key]}</Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
           </Route>
         </Switch>
         <footer className="Footer">

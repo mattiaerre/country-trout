@@ -21,6 +21,11 @@ function Recipe() {
         className="Recipe__hero"
         src={`${REACT_APP_CLOUDFRONT_DOMAIN_NAME}${recipe.images.hero}`}
       />
+      <ul className="Tags">
+        {recipe.tags.map((tag, index) => (
+          <li key={index}>{tag}</li>
+        ))}
+      </ul>
       <ul className="Meta">
         <li>Cooking time: {recipe.meta.cooking.time}</li>
         <li>Servings: {recipe.meta.servings.number}</li>
@@ -31,7 +36,7 @@ function Recipe() {
       <ul className="Ingredients__list">
         {recipe.ingredients.map((ingredient, index) => (
           <li key={index}>
-            {ingredient.name} {ingredient.quantity}
+            {ingredient.quantity} {ingredient.name}
           </li>
         ))}
       </ul>
