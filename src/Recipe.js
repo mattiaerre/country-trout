@@ -3,6 +3,8 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import recipes from './recipes.json';
 
+const { REACT_APP_CLOUDFRONT_DOMAIN_NAME } = process.env;
+
 const copy = {
   Description: 'Description'
 };
@@ -14,6 +16,11 @@ function Recipe() {
   return (
     <article className="Recipe">
       <h1>{recipe.name}</h1>
+      <img
+        alt=""
+        className="Recipe__hero"
+        src={`${REACT_APP_CLOUDFRONT_DOMAIN_NAME}${recipe.images.hero}`}
+      />
       <ul className="Meta">
         <li>Cooking time: {recipe.meta.cooking.time}</li>
         <li>Servings: {recipe.meta.servings.number}</li>

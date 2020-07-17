@@ -39,3 +39,8 @@
 .Recipe {
   padding: 0 32px;
 }
+
+.Recipe__hero {
+  border: 1px solid lightgray;
+  width: 100%;
+}
