@@ -1,6 +1,7 @@
 {
   "butternut-squash-lasagna": {
-    "description": "TODO",
+    "author": { "name": "Lisa Smith" },
+    "description": "Nutty, roasted butternut squash paired with the cheesy goodness of mozzarella, ricotta and parmesan makes this vegetarian dish a beautiful summer meal that is simultaneously light, rich and flavorful. Fresh sage, nutmeg and smoked paprika infuse plenty of flavor into a plate that is gluten free and packed with nutritious vegetables.",
     "directions": [
       "Roast uncut butternut squash for 1 hour at 400 °F, once they are roasted cut them in half, remove the seeds and skin. Mash them with 1/2 cup of almond milk, 2 Tbls of butter, 1 Tbls of nutmeg, 1/4 cup of fresh sage, 1 tsp of salt, and 1 tsp of pepper.",
       "Saute' the spinach with 1 tsp of olive oil, 1 tsp of salt, and 1 tsp of pepper. Remove the spinach from the pan, place in a bowl and add 1 cup of ricotta cheese and 1 egg; mix together with smoked paparika, nutmeg, salt and pepper.",
@@ -34,6 +35,7 @@
     "tags": ["Gluten-free", "Main course", "Vegetarian"]
   },
   "empty": {
+    "author": { "name": "TODO" },
     "description": "TODO",
     "directions": ["TODO", "TODO", "TODO"],
     "images": { "hero": "/TODO" },
