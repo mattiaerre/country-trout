@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/country-trout/static/css/main.b021a731.chunk.css",
-    "main.js": "/country-trout/static/js/main.1378e580.chunk.js",
-    "main.js.map": "/country-trout/static/js/main.1378e580.chunk.js.map",
+    "main.css": "/country-trout/static/css/main.802745f5.chunk.css",
+    "main.js": "/country-trout/static/js/main.b04c77e8.chunk.js",
+    "main.js.map": "/country-trout/static/js/main.b04c77e8.chunk.js.map",
     "runtime-main.js": "/country-trout/static/js/runtime-main.794bdeb0.js",
     "runtime-main.js.map": "/country-trout/static/js/runtime-main.794bdeb0.js.map",
     "static/js/2.9cc8df32.chunk.js": "/country-trout/static/js/2.9cc8df32.chunk.js",
     "static/js/2.9cc8df32.chunk.js.map": "/country-trout/static/js/2.9cc8df32.chunk.js.map",
     "index.html": "/country-trout/index.html",
-    "precache-manifest.174d1dd4126b4f030ce1267fca06cecc.js": "/country-trout/precache-manifest.174d1dd4126b4f030ce1267fca06cecc.js",
+    "precache-manifest.336db84a4c153b4098088283be592011.js": "/country-trout/precache-manifest.336db84a4c153b4098088283be592011.js",
     "service-worker.js": "/country-trout/service-worker.js",
-    "static/css/main.b021a731.chunk.css.map": "/country-trout/static/css/main.b021a731.chunk.css.map",
+    "static/css/main.802745f5.chunk.css.map": "/country-trout/static/css/main.802745f5.chunk.css.map",
     "static/js/2.9cc8df32.chunk.js.LICENSE.txt": "/country-trout/static/js/2.9cc8df32.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.794bdeb0.js",
     "static/js/2.9cc8df32.chunk.js",
-    "static/css/main.b021a731.chunk.css",
-    "static/js/main.1378e580.chunk.js"
+    "static/css/main.802745f5.chunk.css",
+    "static/js/main.b04c77e8.chunk.js"
   ]
 }
