@@ -1,4 +1,50 @@
 {
+  "butternut-squash-lasagna": {
+    "description": "TODO",
+    "directions": [
+      "Roast the butternut squash, once they are roasted cut them in half, remove the seeds and mash them with 1/2 cup of almond milk, 2 Tbls of butter, 1 Tbls of nutmeg, 1/4 cup of fresh sage, 1 tsp of salt, and 1 tsp of pepper.",
+      "Saute' the spinach with 1 tsp of olive oil, 1 tsp of salt, and 1 tsp of pepper. Remove the spinach from the pan and add 1 cup of ricotta cheese and 1 egg in a bowl.",
+      "Take 6 medium zucchini, wash them, cut off the ends and slice thinly lengthwise; place those under a broiler and lightly broil them both size.",
+      "Take an 8x10 casserole pan and layer first the butternut squash, then the sliced zucchini, then the sliced mozzarella, and then the spinach and ricotta. Repeat that layering one more time.",
+      "Top them with parmesan and nutmeg; place it in the oven and bake it to 350 for 35 to 40 minutes."
+    ],
+    "ingredients": [
+      { "name": "Butternut squash", "quantity": "2 small" },
+      { "name": "Almond milk", "quantity": "1/2 cup" },
+      { "name": "Butter", "quantity": "2 Tbls" },
+      { "name": "Nutmeg", "quantity": "2 Tbls" },
+      { "name": "Fresh sage", "quantity": "1/4 cup" },
+      { "name": "Salt", "quantity": "2 tsp" },
+      { "name": "Pepper", "quantity": "2 tsp" },
+      { "name": "Fresh spinach", "quantity": "4 cups" },
+      { "name": "Egg", "quantity": "1" },
+      { "name": "Ricotta cheese", "quantity": "1 cup" },
+      { "name": "Smoked paprika", "quantity": "1 Tbls" },
+      { "name": "Olive oil", "quantity": "1 tsp" },
+      { "name": "Zucchini", "quantity": "6 medium" },
+      { "name": "Fresh mozzarella", "quantity": "2" },
+      { "name": "Grated parmesan cheese ", "quantity": "1/2 cup" }
+    ],
+    "meta": {
+      "cooking": { "time": "35-40 min" },
+      "servings": { "number": 6 }
+    },
+    "name": "Butternut Squash Lasagna"
+  },
+  "empty": {
+    "description": "TODO",
+    "directions": ["TODO", "TODO", "TODO"],
+    "ingredients": [
+      { "name": "TODO", "quantity": "TODO" },
+      { "name": "TODO", "quantity": "TODO" },
+      { "name": "TODO", "quantity": "TODO" }
+    ],
+    "meta": {
+      "cooking": { "time": "TODO" },
+      "servings": { "number": 0 }
+    },
+    "name": "TODO"
+  },
   "risotto-al-salmone": {
     "description": "Il risotto al salmone è un primo piatto di pesce semplice e veloce da preparare, la ricetta prevede pochi ingredienti ma è importante utilizzare alimenti freschi per esaltare al meglio il sapore raffinato di questo piatto. Per rendere il risotto al salmone ancora più gustoso è possibile mantecarlo con un burro aromatizzato alle erbe dai profumi molto delicati.",
     "directions": [

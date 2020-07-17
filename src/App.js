@@ -4,7 +4,13 @@ import { name, version } from '../package.json';
 import './App.css';
 import Recipe from './Recipe';
 
-const ids = { 'risotto-al-salmone': 'Risotto al salmone' };
+const copy = {
+  Home: 'Home'
+};
+
+const ids = {
+  'butternut-squash-lasagna': 'Butternut Squash Lasagna'
+};
 
 function App() {
   return (
@@ -13,6 +19,9 @@ function App() {
         <header className="Header" />
         <nav className="Nav">
           <ul>
+            <li>
+              <Link to="/">{copy.Home}</Link>
+            </li>
             {Object.keys(ids).map((key) => (
               <li key={key}>
                 <Link to={`/${key}`}>{ids[key]}</Link>
