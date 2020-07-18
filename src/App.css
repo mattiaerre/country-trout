@@ -22,9 +22,20 @@
 }
 
 .Header {
+  align-items: center;
   background-color: #f7972e;
+  display: flex;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 32px;
+  font-weight: bold;
   height: 64px;
+  justify-content: center;
   width: 100%;
+}
+
+.Header a {
+  color: whitesmoke;
+  text-decoration: none;
 }
 
 .Heading__small {

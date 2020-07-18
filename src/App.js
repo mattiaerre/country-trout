@@ -6,24 +6,15 @@ import Home from './Home';
 import ids from './ids.json';
 import Recipe from './Recipe';
 
-const copy = {
-  Home: 'Home'
-};
-
 function App() {
   return (
     <Router>
       <main className="App">
-        <header className="Header" />
+        <header className="Header">
+          <Link to="/">[/]</Link>
+        </header>
         <Switch>
           <Route path="/:id">
-            <nav className="Nav">
-              <ul>
-                <li>
-                  <Link to="/">{copy.Home}</Link>
-                </li>
-              </ul>
-            </nav>
             <Recipe />
           </Route>
           <Route path="/">
