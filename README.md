@@ -25,3 +25,5 @@ It also includes the following things:
 ## Resources
 
 - https://developer.mozilla.org/en-US/docs/Glossary/Semantics
+
+- https://via.placeholder.com/468x60

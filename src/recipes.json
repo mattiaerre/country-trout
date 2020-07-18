@@ -28,11 +28,40 @@
       { "name": "Grated parmesan cheese ", "quantity": "1/2 cup" }
     ],
     "meta": {
-      "cooking": { "time": "35-40 min" },
-      "servings": { "number": 6 }
+      "cooking": { "time": "35-40 minutes" },
+      "yield": "6 servings"
     },
     "name": "Butternut Squash Lasagna",
     "tags": ["Gluten-free", "Main course", "Vegetarian"]
+  },
+  "cilantro-lime-rice": {
+    "author": { "name": "Lisa Smith" },
+    "description": "TODO",
+    "directions": [
+      "Heat a skillet on high heat and place with olive oil.",
+      "When hot add 2 cups of cooked white rice.",
+      "1/4 cup freshly chopped cilantro.",
+      "Squeeze the juice of 1 fresh lime.",
+      "Add 1 tablespoon of cumin, salt, and pepper to taste.",
+      "Garnish with more fresh cilantro if desired.",
+      "Serve warm."
+    ],
+    "images": { "hero": "/IMG_2019.jpg" },
+    "ingredients": [
+      { "name": "Olive oil", "quantity": "TT" },
+      { "name": "Cooked rice", "quantity": "2 cups" },
+      { "name": "Cilantro", "quantity": "1/4 cup" },
+      { "name": "Lime", "quantity": "1" },
+      { "name": "Cumin", "quantity": "Tbls" },
+      { "name": "Salt", "quantity": "TT" },
+      { "name": "Pepper", "quantity": "TT" }
+    ],
+    "meta": {
+      "cooking": { "time": "5-10 minutes" },
+      "yield": "2 cups"
+    },
+    "name": "Cilantro Lime Rice",
+    "tags": ["Vegan", "Vegetarian"]
   },
   "empty": {
     "author": { "name": "TODO" },
@@ -46,32 +75,93 @@
     ],
     "meta": {
       "cooking": { "time": "TODO" },
-      "servings": { "number": 0 }
+      "yield": "TODO"
     },
     "name": "TODO",
     "tags": ["TODO", "TODO"]
+  },
+  "fresh-guacamole": {
+    "author": { "name": "Lisa Smith" },
+    "description": "TODO",
+    "directions": [
+      "2 medium ripen avocados cut in half lengthwise, peel off the skin take out the pit, and place in a bowl.",
+      "Take 1 medium beefsteak tomato wash and chop finely add to avocado.",
+      "Chop 1 quarter of yellow sweet onion and 1 small jalapeno. 1/4 cup fresh cilantro. add all to the bowl or mole.",
+      "1/4 teaspoon of cumin, salt, and pepper TT.",
+      "slice a fresh lime in half and squeeze the fresh juice of the lime in the mixture.",
+      "mash together all the ingredients until the desired texture is reached."
+    ],
+    "images": { "hero": "/IMG_2018.jpg" },
+    "ingredients": [
+      { "name": "Avocado", "quantity": "2 medium" },
+      { "name": "Beefsteak tomato", "quantity": "1 medium" },
+      { "name": "Yellow sweet onion", "quantity": "1/4" },
+      { "name": "Jalapeno", "quantity": "1 small" },
+      { "name": "Cilantro", "quantity": "1/4 cup" },
+      { "name": "Cumin", "quantity": "Tbls" },
+      { "name": "Salt", "quantity": "TT" },
+      { "name": "Pepper", "quantity": "TT" },
+      { "name": "Lime", "quantity": "1/2" }
+    ],
+    "meta": {
+      "cooking": { "time": "15-20 minutes" },
+      "yield": "6 servings"
+    },
+    "name": "Fresh Guacamole",
+    "tags": ["Vegan", "Vegetarian"]
+  },
+  "jicama-taco-shells": {
+    "author": { "name": "Lisa Smith" },
+    "description": "TODO",
+    "directions": [
+      "Take 1 large jicama and wash it, cut off the ends slice thinly at its largest point.",
+      "Using paper towels have jicama dry. Put 2 tablespoons of smoked paprika and 2 tablespoons of cumin, salt and pepper on a plate and mix together.",
+      "Take another plate and cover with paper towels.",
+      "Turn a pan to high heat and lightly coat the pan with olive oil. When the pan is hot coat the jicama slices in the seasoning, and place them into the pan.",
+      "Grill each side until brown and the jicama softens and place on to the prepared paper towels."
+    ],
+    "images": { "hero": "/IMG_2014.jpg" },
+    "ingredients": [
+      { "name": "Jicama", "quantity": "1 large" },
+      { "name": "Smoked paprika", "quantity": "2 Tbls" },
+      { "name": "Cumin", "quantity": "2 Tbls" },
+      { "name": "Salt", "quantity": "TT" },
+      { "name": "Pepper", "quantity": "TT" },
+      { "name": "Olive oil", "quantity": "TT" }
+    ],
+    "meta": {
+      "cooking": { "time": "30 minutes" },
+      "yield": "8-10 slices"
+    },
+    "name": "Jicama \"Taco Shells\"",
+    "tags": ["Gluten-free", "Paleo", "Vegan", "Vegetarian"]
   },
   "tomatillo-salsa-verde": {
     "author": { "name": "Lisa Smith" },
     "description": "TODO",
     "directions": [
-      "8 medium tomatillos remove hasks wash and quarter",
-      "place in a glass backing dish add 1/2 yellow onion chopped 1 lime quartered including rind",
-      "cilantro 1/4 cup chopped fresh 1 medium alapenjo",
-      "drizzle w/ olive oil and place in a 400 oF oven for 40 minutes",
-      "remove from pan and place into a blender except the lime",
-      "blend rosted vegetables and poor into a mixing bowl",
-      "when it's blended you add 1/4 cup of finely chopped fresh cilantro, squeeze the juice from the lime into the mixture and then add a table spoon of cumin, salt and pepper to taste"
+      "Take 8 medium tomatillos, remove husks then wash and quarter.",
+      "Place in a glass baking dish, add 1/2 yellow onion chopped, 1 lime quartered including rind, 1/4 cup of chopped cilantro, and 1 medium fresh jalapeno.",
+      "Drizzle with olive oil and place in a 400 °F oven for 40 minutes.",
+      "Remove from pan and place into a blender except for the lime.",
+      "Blend roasted vegetables and pour into a mixing bowl.",
+      "When it's blended add 1/4 cup of finely chopped fresh cilantro, squeeze the juice from the lime into the mixture and then add a tablespoon of cumin, salt, and pepper to taste."
     ],
     "images": { "hero": "/IMG_2010.jpg" },
     "ingredients": [
-      { "name": "TODO", "quantity": "TODO" },
-      { "name": "TODO", "quantity": "TODO" },
-      { "name": "TODO", "quantity": "TODO" }
+      { "name": "Tomatillo", "quantity": "8 medium" },
+      { "name": "Yellow onion", "quantity": "1/2" },
+      { "name": "Lime", "quantity": "1" },
+      { "name": "Cilantro", "quantity": "1/2 cup" },
+      { "name": "Jalapeno", "quantity": "1 medium" },
+      { "name": "Olive oil", "quantity": "TT" },
+      { "name": "Cumin", "quantity": "Tbls" },
+      { "name": "Salt", "quantity": "TT" },
+      { "name": "Pepper", "quantity": "TT" }
     ],
     "meta": {
-      "cooking": { "time": "TODO" },
-      "servings": { "number": 0 }
+      "cooking": { "time": "40 minutes" },
+      "yield": "3 cups"
     },
     "name": "Tomatillo Salsa Verde",
     "tags": ["Salsa", "Vegan", "Vegetarian"]

@@ -27,6 +27,12 @@
   width: 100%;
 }
 
+.Heading__small {
+  color: gray;
+  font-size: 16px;
+  margin: 0 0 8px 4px;
+}
+
 .Ingredients__list {
   list-style: disc;
   margin-left: 24px;
@@ -49,6 +55,10 @@
   max-width: 425px;
 }
 
+.Recipe h1 {
+  margin: 24px 0 8px;
+}
+
 .Recipe__hero {
   border: 1px solid lightgray;
   width: 100%;
@@ -57,6 +67,8 @@
 .Tags {
   display: flex;
   flex-wrap: wrap;
+  margin: 0;
+  padding: 0 16px 16px;
 }
 
 .Tags li {

@@ -4,23 +4,27 @@ const recipes = require('./recipes.json');
 
 const names = [
   'Butternut Squash Lasagna',
-  'Risotto al salmone',
+  'Cilantro Lime Rice',
+  'Fresh Guacamole',
+  'Jicama "Taco Shells"',
   'Tomatillo Salsa Verde'
 ];
 
 names.forEach((name) => {
-  console.log(`${name}:`, slugify(name, { lower: true }));
+  console.log(`${name}:`, slugify(name, { lower: true, remove: '"' }));
 });
 
 const { WRITE } = process.env;
 
 if (WRITE) {
-  const ids = Object.keys(recipes).reduce((accumulator, current) => {
-    if (current !== 'empty') {
-      accumulator[current] = recipes[current].name;
-    }
-    return accumulator;
-  }, {});
+  const ids = Object.keys(recipes)
+    .sort()
+    .reduce((accumulator, current) => {
+      if (current !== 'empty') {
+        accumulator[current] = recipes[current].name;
+      }
+      return accumulator;
+    }, {});
 
   fs.writeFileSync('src/ids.json', JSON.stringify(ids, null, 2));
 

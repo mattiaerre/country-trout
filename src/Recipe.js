@@ -17,6 +17,7 @@ function Recipe() {
   return (
     <article className="Recipe">
       <h1>{recipe.name}</h1>
+      <p className="Heading__small">by {recipe.author.name}</p>
       <img
         alt=""
         className="Recipe__hero"
@@ -25,7 +26,7 @@ function Recipe() {
       <Tags tags={recipe.tags} />
       <ul className="Meta">
         <li>Cooking time: {recipe.meta.cooking.time}</li>
-        <li>Servings: {recipe.meta.servings.number}</li>
+        <li>Yield: {recipe.meta.yield}</li>
       </ul>
       <h2>{copy.Description}</h2>
       <p>{recipe.description}</p>
