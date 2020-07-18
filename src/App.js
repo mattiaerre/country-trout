@@ -6,6 +6,8 @@ import Home from './Home';
 import ids from './ids.json';
 import Recipe from './Recipe';
 
+const { REACT_APP_CLOUDFRONT_DOMAIN_NAME } = process.env;
+
 function App() {
   return (
     <Router>
@@ -21,8 +23,13 @@ function App() {
             <nav className="Nav">
               <ul>
                 {Object.keys(ids).map((key) => (
-                  <li key={key}>
-                    <Link to={`/${key}`}>{ids[key]}</Link>
+                  <li className="Nav__item" key={key}>
+                    <img
+                      alt=""
+                      className="Nav__hero"
+                      src={`${REACT_APP_CLOUDFRONT_DOMAIN_NAME}${ids[key].hero}`}
+                    />
+                    <Link to={`/${key}`}>{ids[key].name}</Link>
                   </li>
                 ))}
               </ul>

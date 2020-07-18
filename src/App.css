@@ -58,7 +58,19 @@
 }
 
 .Nav {
+  max-width: 425px;
   padding: 0 32px;
+}
+
+.Nav__hero {
+  border: 1px solid lightgray;
+  margin-right: 8px;
+  width: 25%;
+}
+
+.Nav__item {
+  display: flex;
+  margin: 8px;
 }
 
 .Recipe {

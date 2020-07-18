@@ -1,7 +1,22 @@
 {
-  "butternut-squash-lasagna": "Butternut Squash Lasagna",
-  "cilantro-lime-rice": "Cilantro Lime Rice",
-  "fresh-guacamole": "Fresh Guacamole",
-  "jicama-taco-shells": "Jicama \"Taco Shells\"",
-  "tomatillo-salsa-verde": "Tomatillo Salsa Verde"
+  "butternut-squash-lasagna": {
+    "hero": "/IMG_2009.jpg",
+    "name": "Butternut Squash Lasagna"
+  },
+  "cilantro-lime-rice": {
+    "hero": "/IMG_2019.jpg",
+    "name": "Cilantro Lime Rice"
+  },
+  "fresh-guacamole": {
+    "hero": "/IMG_2018.jpg",
+    "name": "Fresh Guacamole"
+  },
+  "jicama-taco-shells": {
+    "hero": "/IMG_2014.jpg",
+    "name": "Jicama \"Taco Shells\""
+  },
+  "tomatillo-salsa-verde": {
+    "hero": "/IMG_2010.jpg",
+    "name": "Tomatillo Salsa Verde"
+  }
 }

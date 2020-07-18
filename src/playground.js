@@ -21,7 +21,10 @@ if (WRITE) {
     .sort()
     .reduce((accumulator, current) => {
       if (current !== 'empty') {
-        accumulator[current] = recipes[current].name;
+        accumulator[current] = {
+          hero: recipes[current].images.hero,
+          name: recipes[current].name
+        };
       }
       return accumulator;
     }, {});
