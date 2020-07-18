@@ -50,5 +50,30 @@
     },
     "name": "TODO",
     "tags": ["TODO", "TODO"]
+  },
+  "tomatillo-salsa-verde": {
+    "author": { "name": "Lisa Smith" },
+    "description": "TODO",
+    "directions": [
+      "8 medium tomatillos remove hasks wash and quarter",
+      "place in a glass backing dish add 1/2 yellow onion chopped 1 lime quartered including rind",
+      "cilantro 1/4 cup chopped fresh 1 medium alapenjo",
+      "drizzle w/ olive oil and place in a 400 oF oven for 40 minutes",
+      "remove from pan and place into a blender except the lime",
+      "blend rosted vegetables and poor into a mixing bowl",
+      "when it's blended you add 1/4 cup of finely chopped fresh cilantro, squeeze the juice from the lime into the mixture and then add a table spoon of cumin, salt and pepper to taste"
+    ],
+    "images": { "hero": "/IMG_2010.jpg" },
+    "ingredients": [
+      { "name": "TODO", "quantity": "TODO" },
+      { "name": "TODO", "quantity": "TODO" },
+      { "name": "TODO", "quantity": "TODO" }
+    ],
+    "meta": {
+      "cooking": { "time": "TODO" },
+      "servings": { "number": 0 }
+    },
+    "name": "Tomatillo Salsa Verde",
+    "tags": ["Salsa", "Vegan", "Vegetarian"]
   }
 }

@@ -3,14 +3,11 @@ import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { name, version } from '../package.json';
 import './App.css';
 import Home from './Home';
+import ids from './ids.json';
 import Recipe from './Recipe';
 
 const copy = {
   Home: 'Home'
-};
-
-const ids = {
-  'butternut-squash-lasagna': 'Butternut Squash Lasagna'
 };
 
 function App() {
