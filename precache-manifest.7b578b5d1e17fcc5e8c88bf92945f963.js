@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b02dcb35d4d251cba8754d729b32b97a",
+    "revision": "90496c570880cfa6f72f5a74b404b30e",
     "url": "/country-trout/index.html"
   },
   {
-    "revision": "3cc1bc6d8c95f6d7e02b",
-    "url": "/country-trout/static/css/main.13b49743.chunk.css"
+    "revision": "903c2ad1feb6c3d8115c",
+    "url": "/country-trout/static/css/main.e1491553.chunk.css"
   },
   {
     "revision": "4aba7122794e73cd7359",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/country-trout/static/js/2.f2a0e22f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3cc1bc6d8c95f6d7e02b",
-    "url": "/country-trout/static/js/main.cbb35a77.chunk.js"
+    "revision": "903c2ad1feb6c3d8115c",
+    "url": "/country-trout/static/js/main.69635af8.chunk.js"
   },
   {
     "revision": "71ae3e5127e085f90444",

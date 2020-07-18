@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/country-trout/precache-manifest.76f362644da7ad19abe26b1e9f19bcd7.js"
+  "/country-trout/precache-manifest.7b578b5d1e17fcc5e8c88bf92945f963.js"
 );
 
 self.addEventListener('message', (event) => {
