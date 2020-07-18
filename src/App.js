@@ -2,6 +2,7 @@ import React from 'react';
 import { HashRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import { name, version } from '../package.json';
 import './App.css';
+import Home from './Home';
 import Recipe from './Recipe';
 
 const copy = {
@@ -38,6 +39,7 @@ function App() {
                 ))}
               </ul>
             </nav>
+            <Home />
           </Route>
         </Switch>
         <footer className="Footer">

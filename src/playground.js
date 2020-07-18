@@ -1,13 +1,24 @@
+const fs = require('fs');
 const slugify = require('slugify');
 
 const recipes = require('./recipes.json');
 
-// console.log(slugify('Risotto al salmone', { lower: true }));
+const names = ['Butternut Squash Lasagna', 'Risotto al salmone'];
 
-console.log(slugify('Butternut Squash Lasagna', { lower: true }));
+names.forEach((name) => {
+  console.log(`${name}:`, slugify(name, { lower: true }));
+});
 
-const _ = Object.keys(recipes).reduce((accumulator, current) => {
-  return new Set([...accumulator, ...recipes[current].tags]);
-}, new Set());
+if (false) {
+  const all = Object.keys(recipes).reduce((accumulator, current) => {
+    if (current !== 'empty') {
+      return new Set([...accumulator, ...recipes[current].tags]);
+    }
+    return accumulator;
+  }, new Set());
 
-console.log(Array.from(_).sort());
+  fs.writeFileSync(
+    'src/tags.json',
+    JSON.stringify(Array.from(all).sort(), null, 2)
+  );
+}

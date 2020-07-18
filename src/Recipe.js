@@ -2,6 +2,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import recipes from './recipes.json';
+import Tags from './Tags';
 
 const { REACT_APP_CLOUDFRONT_DOMAIN_NAME } = process.env;
 
@@ -21,11 +22,7 @@ function Recipe() {
         className="Recipe__hero"
         src={`${REACT_APP_CLOUDFRONT_DOMAIN_NAME}${recipe.images.hero}`}
       />
-      <ul className="Tags">
-        {recipe.tags.map((tag, index) => (
-          <li key={index}>{tag}</li>
-        ))}
-      </ul>
+      <Tags tags={recipe.tags} />
       <ul className="Meta">
         <li>Cooking time: {recipe.meta.cooking.time}</li>
         <li>Servings: {recipe.meta.servings.number}</li>
